@@ -16,9 +16,9 @@ function Navbar() {
     }
   return (
     <>
-     <nav className='flex justify-between p-4 bg-[#161513]'>
+     <nav className='flex justify-between py-2 bg-[#161513] w-full px-1'>
       <div>
-          <h1 className='text-3xl font-bold font-sans text-white'>IzhaN</h1>
+          <h1 className='text-3xl font-bold font-sans text-white cursor-default'>IzhaN</h1>
       </div>
     <div className='md:hidden'  >
          <img  className='h-6 md:hidden  ' onClick={openMenu}  src={menu} />

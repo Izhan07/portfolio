@@ -33,19 +33,19 @@ function Contact() {
 
 
   return (
-    <div id='contact' className='bg-[#161513] text-white p-4 flex flex-col items-center '>
+    <div id='contact' className='bg-[#161513] text-white py-4 flex flex-col justify-center w-full'>
         <div>
-            <h1 className='min-[370px]:text-5xl text-4xl font-bold p-4' >Get in touch</h1>
+            <h1 className='min-[370px]:text-5xl text-4xl font-bold py-4 cursor-default' >Get in touch</h1>
         </div>
-        <div className='flex w-full md:justify-center items-center md:items-start  gap-4 flex-col md:flex-row'>
-            <div className='min-[370px]:w-96 w-80 '>
-                <h1 className='text-4xl font-bold p-4 '><span className='bg-gradient-to-r from-purple-500 to-pink-500 text-transparent bg-clip-text'>Let's Talk</span></h1>
-                <p className='p-4'>I'm currently avaliable to take on new projects, so feel free to send me a message about anything that you want me to work on. You can contact anytime.</p>
-                <div className='flex text-white p-4 gap-4'><img src={mail}/><p>izhanahmed987@gmail.com</p></div>
-                <div className='flex text-white p-4 gap-4'><img src={phone}/>+923122929271</div>
-                <div className='flex text-white p-4 gap-4'><img src={location}/>Khi,Pak</div>
+        <div className='flex w-full md:justify-center  items-center md:items-start  gap-4 flex-col md:flex-row'>
+            <div className='w-full '>
+                <h1 className='text-4xl font-bold py-4 cursor-default'><span className='bg-gradient-to-r from-purple-500 to-pink-500 text-transparent bg-clip-text'>Let's Talk</span></h1>
+                <p className='py-4 cursor-default'>I'm currently avaliable to take on new projects, so feel free to send me a message about anything that you want me to work on. You can contact anytime.</p>
+                <div className='flex text-white py-4 gap-4  cursor-default '><img src={mail}/><p>izhanahmed987@gmail.com</p></div>
+                <div className='flex text-white py-4 gap-4  cursor-default'><img src={phone}/>+923122929271</div>
+                <div className='flex text-white py-4 gap-4  cursor-default'><img src={location}/>Khi,Pak</div>
             </div>
-           <form onSubmit={onSubmit} className='flex flex-col min-[410px]:w-96 w-80 gap-4 '>
+           <form onSubmit={onSubmit} className='flex flex-col w-full gap-4 '>
               <label>Your Name</label>
               <input className='rounded-md p-1 bg-[#32323c]' type='text' placeholder='Enter your Name' name='name'/>
               <label>Your Email</label>

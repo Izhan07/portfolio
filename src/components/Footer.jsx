@@ -2,17 +2,14 @@ import React from 'react'
 
 function Footer() {
   return (
-    <div className='min-[380px]:p-6 pl-3 pr-3 text-white bg-[#161513]'>
-        <div className='min-[380px]:w-96 w-80 p-3'>
-            <h1 className='font-bold text-4xl p-2'>Izhan</h1>
-            <p className='min-[380px]:p-2 min-[380px]:text-lg pl-0 text-sm'>I am a frontend developer from, Pakistan.</p>
-        </div>
+    <div className='min-[380px]:py-6  text-white bg-[#161513] w-full'>
+       
         <hr className='w-100vw '/>
-        <div className='flex md:flex-row flex-col justify-between p-2 '>
-            <div className=''>
+        <div className='flex md:flex-row flex-col justify-between py-2 '>
+            <div className=' cursor-default'>
                 <p>© 2024 Izhan Ahmed. All rights reserved.</p>
             </div>
-            <div className='flex gap-4'>
+            <div className='flex gap-4  cursor-default'>
                 <p>Term of Services</p>
                 <p>Privacy Policy</p>
                 <p>Connect with me</p>

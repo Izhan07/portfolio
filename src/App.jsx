@@ -13,13 +13,14 @@ function App() {
  
   return (
     <>
-    
+    <div className='  bg-[#161513] px-1 '>
     <Navbar/>
     <Hero/>
     <About/>
     <Work/>
     <Contact/>
     <Footer/>
+    </div>
     </>
   )
 }
